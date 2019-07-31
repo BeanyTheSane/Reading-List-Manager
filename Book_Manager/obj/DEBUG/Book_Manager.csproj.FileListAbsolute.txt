@@ -1,0 +1,15 @@
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\bin\Debug\Book_Manager.exe.config
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\bin\Debug\Book_Manager.exe
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\bin\Debug\Book_Manager.pdb
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\obj\Debug\Book_Manager.csprojResolveAssemblyReference.cache
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\obj\Debug\Book_Manager.Properties.Resources.resources
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\obj\Debug\Book_Manager.csproj.GenerateResource.Cache
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\obj\Debug\Book_Manager.exe
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\obj\Debug\Book_Manager.pdb
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\bin\Debug\Book_List.accdb
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\bin\Debug\Book_ListDataSet.Designer.cs
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\bin\Debug\Book_ListDataSet.xsc
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\bin\Debug\Book_ListDataSet.xss
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\bin\Debug\Book_ListDataSet.xsd
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\obj\Debug\Book_Manager.frmMain.resources
+C:\Users\knitt_ykpdq8i\Dropbox\School\Spring 2019\CISS 222 Advanced C#\Project\BookManager\Book_Manager\Book_Manager\obj\Debug\Book_Manager.frmStatistics.resources
