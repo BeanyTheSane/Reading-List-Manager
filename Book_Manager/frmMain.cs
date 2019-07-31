@@ -65,12 +65,24 @@ namespace Book_Manager
             toolTip4.SetToolTip(this.btnStats, "This button will open a new window to display various stats about your reading list");
             toolTip5.SetToolTip(this.btnDeleteRow, "This button will delete a single row from the above window");
 
-            //this fills the main datagrid as the form loads
-            // TODO: This line of code loads data into the 'book_ListDataSet.Book_List' table. You can move, or remove it, as needed.
-            this.book_ListTableAdapter.Fill(this.book_ListDataSet.Book_List);
-            tbTitle.Focus();//sets starting focus to the book title text box 
+            //this try/catch block is intended to catch if the user has a dependancy for the Database installed.
+            try
+            {
+                //this fills the main datagrid as the form loads
+                // TODO: This line of code loads data into the 'book_ListDataSet.Book_List' table. You can move, or remove it, as needed.
+                this.book_ListTableAdapter.Fill(this.book_ListDataSet.Book_List);
+            }
+            catch(Exception Ex)
+            {
+
+                string exMsg = Ex.Message;
+                MessageBox.Show($"{exMsg}\n\nPlease see README for instructions on how to fix\n\nERROR CODE: 0001", "WARNING");
+
+            }
 
 
+                tbTitle.Focus();//sets starting focus to the book title text box
+                
             //this creates an object that will handle database errors made in the datagridview in a more friendly manner tahn the default
             this.dagdBook_List.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(dagdBook_List_DataError);
 
@@ -201,7 +213,7 @@ namespace Book_Manager
                 if (conn.State == ConnectionState.Open)
                 {
 
-                    parameterized queries are used to avoid SQL Injection
+                    //parameterized queries are used to avoid SQL Injection
                     comAddBook.Parameters.Add("myAuthor", OleDbType.VarChar).Value = myAuthor;
                     comAddBook.Parameters.Add("myTitle", OleDbType.VarChar).Value = myTitle;
                     comAddBook.Parameters.Add("mySeries", OleDbType.VarChar).Value = mySeries;
